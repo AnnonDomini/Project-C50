@@ -1,0 +1,73 @@
+::backdrop{
+    background-color: #e5ad68;
+}
+*{
+    background-color: #e5ad68;
+}
+h6{
+    color: black;
+}
+h1{
+    color:  black;
+        border: 10px solid burlywood;
+        background-color: beige;
+
+}
+body{
+    background-color: #e5ad68;
+
+}
+p{
+        font-family: comic sans ms;
+        font-weight: italic;
+    } 
+img{
+    border: 3px solid black;
+}
+ol,ul{
+        font-family: comic sans ms;
+    }
+hr{
+    display: block;
+}
+.Header{
+display:flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+/*.Grid{
+    display:flex;
+justify-content: space-between;
+flex-wrap: nowrap;
+flex-direction: row;
+}*/
+.Grid{
+    display:flex;
+justify-content: space-between;
+flex-wrap: wrap;
+flex-direction: row;
+size: 10px;
+}
+h4{
+    font-size: 30px;
+   
+}
+.Footer{
+    display:flex;
+justify-content: space-between;
+flex-wrap: wrap;
+flex-direction: row;
+}
+.Lang{
+ 
+    font-size: 50px;
+
+}
+.exit{
+    height: 10px;
+    
+    display:flex;
+justify-content: space-between;
+flex-wrap: nowrap;
+flex-direction:row-reverse;
+}
